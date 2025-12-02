@@ -1,0 +1,3 @@
+var ip1 = '192.168.1.101';
+var ip2 = '1.161.124.13';
+var brw = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0';

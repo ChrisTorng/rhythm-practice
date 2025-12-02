@@ -1,0 +1,72 @@
+/* CSS Document */
+body {
+	font-family:'Noto Sans SC', 'Noto Sans JP', sans-serif;
+}	
+.scene1{ width:1000px;	height:600px ;	background-color:#000000; position:relative;}
+.scene2{ width:1000px;	height:600px;	background:url(images/index_bg01.png),url(images/index_bg02.png),#FFFFE1; }
+.scene3{ width:1000px;	height:600px;	background:url(images/index_bg01.png),url(images/index_bg02.png),#FFFFE1; }
+.scene4{ width:1000px;	height:600px;	background:url(images/index_bg01.png),url(images/index_bg02.png),#FFFFE1; }
+.scene5{ width:1000px;	height:600px;	background-color:#FFFFE1; position:relative; }
+.scene6{ width:1000px;	height:600px;	background-color:#FFFFE1; }
+
+/*	indexページ	*/
+.index_bg00 { background-image:url(images/index_c.png); }
+.index_bg01 { background-image:url(images/index_bg01.png); }
+.index_bg02 { background-image:url(images/index_bg02.png); }
+.index_bg03 { background-image:url(images/index_bg03.png); }
+.index_bg04 { background-image:url(images/index_bg04.png); }
+.index_btn01{ background-image:url(images/index_btn01.png);display:block;width:170px;height:70px;line-height:70px;border:solid 1px; }
+.bg_position{ width:1000px; height:600px; position:absolute; display:none; }
+
+/*　scene03 ボタンの色 */
+.bg_rhythmn01{ background-image:url(../../css/images/t/t300_60_rhythmn01.png); color:#FFF;}
+.bg_rhythmn01	a:link			{ color: #11f; text-decoration: none; }
+.bg_rhythmn01   a:visited  		{ color: #11f; text-decoration: none; }
+.bg_rhythmn01 	a:hover    		{ color: #11f; text-decoration: underline;}
+.bg_rhythmn02{ background-image:url(../../css/images/t/t300_60_rhythmn02.png); color:#FFF;}
+.bg_rhythmn02	a:link			{ color: #11f; text-decoration: none; }
+.bg_rhythmn02   a:visited  		{ color: #11f; text-decoration: none; }
+.bg_rhythmn02 	a:hover    		{ color: #11f; text-decoration: underline;}
+
+
+/*　scene03 ボタンの色 */
+.bg_donyu{ background:#fff; font-size:17px; color:#FFF;}
+.bg_donyu	a:link			{ color: #0000FF; text-decoration: none; }
+.bg_donyu   a:visited  		{ color: #0000FF; text-decoration: none; }
+.bg_donyu 	a:hover    		{ color: #0000FF; background-image:url(images/on_mouce01.png); border:#0000FF solid 1px;}
+.bg_kiso{ background:#fff; font-size:17px; color:#FFF;}
+.bg_kiso	a:link			{ color: #006400; text-decoration: none; }
+.bg_kiso    a:visited  		{ color: #006400; text-decoration: none; }
+.bg_kiso 	a:hover    		{ color: #006400; background-image:url(images/on_mouce02.png); border:#006400 solid 1px;}
+.bg_ouyo{ background:#fff; font-size:17px; color:#FFF;}
+.bg_ouyo	a:link			{ color: #FF5000; text-decoration: none; }
+.bg_ouyo    a:visited  		{ color: #FF5000; text-decoration: none; }
+.bg_ouyo 	a:hover    		{ color: #FF5000; background-image:url(images/on_mouce01.png); border:#FF5000 solid 1px;}
+.bg_chojin{ background:#fff; font-size:17px; color:#FFF;}
+.bg_chojin	a:link			{ color: #FF0000; text-decoration: none; }
+.bg_chojin  a:visited 		{ color: #FF0000; text-decoration: none; }
+.bg_chojin 	a:hover    		{ color: #FF0000; background-image:url(images/on_mouce02.png); border:#FF0000 solid 1px;}
+.bg_kaigo{ background:#fff; font-size:17px; color:#FFF;}
+.bg_kaigo	a:link			{ color: #FF00B4; text-decoration: none; }
+.bg_kaigo   a:visited  		{ color: #FF00B4; text-decoration: none; }
+.bg_kaigo 	a:hover    		{ color: #FF00B4; background-image:url(images/on_mouce01.png); border:#FF00B4 solid 1px;}
+
+/*　scene04 ボタンの色 */
+.bg_0105{ background:#00ade0; font-size:17px; color:#FFF;}
+.bg_0105	a:link			{ color: #FFF; text-decoration: none; }
+.bg_0105    a:visited  		{ color: #FFF; text-decoration: none; }
+.bg_0105 	a:hover    		{ color: #0000FF; text-decoration: underline; }
+.bg_0610{ background:#00b58a; font-size:17px; color:#FFF;}
+.bg_0610	a:link			{ color: #FFF; text-decoration: none; }
+.bg_0610    a:visited  		{ color: #FFF; text-decoration: none; }
+.bg_0610 	a:hover    		{ color: #006400; text-decoration: underline; }
+.bg_1115{ background:#ffad5e; font-size:17px; color:#FFF;}
+.bg_1115	a:link			{ color: #FFF; text-decoration: none; }
+.bg_1115    a:visited  		{ color: #FFF; text-decoration: none; }
+.bg_1115 	a:hover    		{ color: #FF5000; text-decoration: underline; }
+.bg_1620{ background:#ff758c; font-size:17px; color:#FFF;}
+.bg_1620	a:link			{ color: #FFF; text-decoration: none; }
+.bg_1620    a:visited  		{ color: #FFF; text-decoration: none; }
+.bg_1620 	a:hover    		{ color: #FF0000; text-decoration: underline; }
+
+/* scene5 */

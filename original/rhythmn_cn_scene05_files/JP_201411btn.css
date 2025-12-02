@@ -1,0 +1,406 @@
+/* -------------------------------------------------- */
+/*             全体の幅を決める                  */
+/* -------------------------------------------------- */
+.w1000menu { width:1000px; 		margin-right:auto;	margin-left:auto;}
+.w900menu  { width:900px; 			margin-right:auto;	margin-left:auto;}
+.w850menu  { width:850px;	 		margin-right:auto;	margin-left:auto;}
+.w840menu  { width:840px;	 		margin-right:auto;	margin-left:auto;}
+.w800menu  { width:800px;	 		margin-right:auto;	margin-left:auto;}
+.w750menu  { width:750px;	 		margin-right:auto;	margin-left:auto;}
+.w720menu  { width:720px;	 		margin-right:auto;	margin-left:auto;}
+.w700menu  { width:700px;	 		margin-right:auto;	margin-left:auto;}
+.w600menu  { width:600px;	 		margin-right:auto;	margin-left:auto;}
+.w500menu  { width:500px;	 		margin-right:auto;	margin-left:auto;}
+.w400menu  { width:400px;	 		margin-right:auto;	margin-left:auto;}
+.w300menu  { width:300px;	 		margin-right:auto;	margin-left:auto;}
+.w200menu  { width:200px;	 		margin-right:auto;	margin-left:auto;}
+.w50Pmenu  { width:50%;	 			margin-right:auto;	margin-left:auto;}
+.w00Pmenu  { width:100%;	 		margin-right:auto;	margin-left:auto;}
+/* ------------------ モバイル専用 ------------------ */
+ul.wDevWidth { width:device-width;	margin-right:auto;	margin-left:auto;}
+/* -------------------------------------------------- */
+/*            ボタンの概要を決める              */
+/* -------------------------------------------------- */
+.btn
+{
+	display:block;
+	height: 80px;
+	line-height:80px;
+	float: left;
+	padding:0;
+	margin:1px;
+}
+.btn1
+{
+	display:block;
+	height: 80px;
+	line-height:80px;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+.btn2/*過去問オンライントップ*/
+{
+	display:block;
+	height: 80px;
+	line-height:80px;
+	text-align:center;
+	margin:0 10px 10px 0;
+	border:1px solid #AAA;
+	float: left;
+	padding:0;
+}
+.btn a,.btnM a,.btn1 a,.btn2 a{
+	display:block;
+	text-align: center;
+}
+.btn2.last1,.last2{margin:0 0 0 0;}/*wasei.html*/
+.btn2.last2{display:none;}
+.bL a{
+	display:block;
+	text-align:left;
+}
+.bR a{
+	display:block;
+	text-align:right;
+}
+.bC{text-align: center;}
+
+/* -------------------------------------------------- */
+/*                   高さの設定                       */
+/* -------------------------------------------------- */
+.H150 { height: 150px;	    line-height: 150px; font-size:30px;}
+.H80  { height: 80px;		line-height: 80px;  font-size:18px;}
+.H60  { height: 60px;		line-height: 60px;  font-size:18px;}
+.H40  { height: 40px;		line-height: 40px;  font-size:16px;}
+.H30  { height: 30px;		line-height: 30px;  font-size:16px;}
+.H20  { height: 20px;		line-height: 20px;  font-size:14px;}
+.H10  { height: 10px;		line-height: 10px;  font-size:14px;}
+
+/* -------------------------------------------------- */
+/*                 背景と文字色を設定                 */
+/* -------------------------------------------------- */
+
+.bg_GKTN1  { background-image: url(images/g/g1_80_green1.png);				color: #FFF; }
+.bg_GKTN2  { background-image: url(images/g/g1_80_green2.png);				color: #FFF; }
+.bg_GKTN3  { background-image: url(images/g/g1_80_green3.png);				color: #373; }
+.bg_SOLF1   { background:#1A5CFA;	color: #FFF; }
+.bg_SOLF2   { background:#4296DB;	color: #FFF; }
+.bg_SOLF3   { background:#8ACCE3;	color: #11f; }
+.bg_HSTR1  { background:#FF5E82;	color: #FFF; }
+.bg_HSTR2  { background:#FF96AB;	color: #FFF; }
+.bg_HSTR3  { background:#FFC6BB;	color: #881E38; }
+.bg_VTSZ1  { background:#800000;	color: #FFF; }
+.bg_VTSZ2  { background:#Eb5E2B;	color: #FFF; }
+.bg_VTSZ3  { background:#F3A473;	color: #f77; }
+.bg_JZRP1   { background:#4B0082;	color: #FFF; }
+.bg_JZRP2   { background:#BA55D3;	color: #FFF; }
+.bg_JZRP3   { background:#BA55D3;	color: #FFF; }
+.bg_GRAY1  { background:#666666;	color: #FFF; }
+.bg_GRAY2  { background:#999999;	color: #FFF; }
+.bg_GRAY3  { background:#CFCFCF;	color: #555; }
+
+/* -------------------------------------------------- */
+/*                    ボタンの絵                      */
+/* -------------------------------------------------- */
+.bg_new01       	{ background-image: url(images/t/t250_80_green1_new.png);			color: #FFF; }
+.bg_leaf        	{ background-image: url(images/t/t250_80_green1_leaf.png);			color: #FFF; }
+.bg_leaf2       	{ background-image: url(images/t/t250_80_green1_leaf2.png);			color: #373; }
+.bg_cf1         	{ background-image: url(images/t/t200_80_green1_cf.png);			color: #FFF; }
+.bg_leaf3       	{ background-image: url(images/t/t200_80_green3_leaf2.png);			color: #373; }
+.bg_SOLF_repeat 	{ background-image: url(images/t/t080_80_SOLF_repeat.png);			color: #000; }
+.bg_GKTN_repeat 	{ background-image: url(images/t/t080_80_GKTN_repeat.png);			color: #373; }
+.bg_VS		  	    { background-image: url(images/t/t250_80_VS.png);					color: #000; }
+.bg_soudan	  	    { background-image: url(images/t/t250_80_soudan.png);				color: #000; }
+.char_sato      	{ background-image: url(images/t/t250_80_satoh.png);		    	color: #FFF; }
+.char_matsuo    	{ background-image: url(images/t/t250_80_matsuo.png);		    	color: #FFF; }
+.char_yamada    	{ background-image: url(images/t/t250_80_yamada.png);		    	color: #FFF; }
+.char_ishiketa  	{ background-image: url(images/t/t250_80_ishiketa.png);				color: #FFF; }
+.char_sokabe    	{ background-image: url(images/t/t250_80_sokabe.png);		    	color: #FFF; }
+.char_ooe       	{ background-image: url(images/t/t250_80_ooe.png);		        	color: #FFF; }
+.char_teruya    	{ background-image: url(images/t/t250_80_teruya.png);		    	color: #FFF; }
+.char_shimizu   	{ background-image: url(images/t/t250_80_shimizu.png);		    	color: #FFF; }
+.char_syono     	{ background-image: url(images/t/t250_80_syono.png);		    	color: #FFF; }
+.bg_whitef      	{ background-image: url(images/t/t250_80_green1_whitef.png);		color: #FFF; }
+.bg_orangel     	{ background-image: url(images/t/g1_80_brown2_orangel.png);			color: #FF9; }
+.bg_Rhythmn1	 	{ background-image: url(images/t/t300_80_blue3_Rhythmn.png);  		color: #11F; }
+.bg_blue3_dia1   	{ background-image: url(images/t/t300_80_blue3_dia.png); 	    	color: #11F; }
+/* 2015/03/27 大丸追記 solfege の index で使用 */
+.bg_blue3_fuyomi	{ background-image:url(../css/images/t/t300_80_blue3_fuyomi.png);	color: #11F; }
+.bg_blue3_RPG		{ background-image:url(../css/images/t/t300_80_blue3_RPG.png);		color: #11F; }
+.bg_blue3_waon		{ background-image:url(../css/images/t/t300_80_blue3_waon.png);		color: #11F; }
+.bg_blue3_neiloan	{ background-image:url(../css/images/t/t300_80_blue3_neiloan.png);	color: #11F; }
+/* ここまで */
+/* 2016/03/29 溝上追記 theory の index で使用 */
+.bg_green3_theory	{ background-image:url(../css/images/t/t300_80_green3_theory.png);	color: #373; }
+.bg_green3_exam		{ background-image:url(../css/images/t/t300_80_green3_exam.png);	color: #373; }
+.bg_green3_wasei	{ background-image:url(../css/images/t/t300_80_green3_wasei.png);	color: #373; }
+.bg_green3_baloon	{ background-image:url(../css/images/t/t300_80_green3_baloon.png);	color: #373; }
+.bg_green3_kakomon	{ background-image:url(../css/images/t/t300_80_green3_kakomon.png);	color: #373; }
+.bg_volt3_jazz		{ background-image:url(../css/images/t/t300_80_volt3_jazz.png);		color: #FFF; }
+.bg_volt3_keyboard	{ background-image:url(../css/images/t/t300_80_volt3_keyboard.png);	color: #FFF; }
+.bg_volt3_chord		{ background-image:url(../css/images/t/t300_80_volt3_chord.png);	color: #FFF; }
+/* ここまで */
+.bg_triad1       	{ background-image: url(images/t/t100_30_waon_triad.png);		   	color: #FFF; }		
+.bg_triad2       	{ background-image: url(images/t/t150_30_waon_triad.png);		   	color: #FFF; }
+.bg_triad3       	{ background-image: url(images/t/waon_triad.png);				   	color: #FFF; }
+.bg_seventh1     	{ background-image: url(images/t/t100_30_waon_seventh.png);	    	color: #FFF; }
+.bg_seventh2     	{ background-image: url(images/t/t150_30_waon_seventh.png);	   		color: #FFF; }			
+.bg_seventh3     	{ background-image: url(images/t/waon_seventh.png);			   		color: #FFF; }
+.bg_function     	{ background-image: url(images/t/t100_30_waon_function.png);		color: #FFF; }
+.bg_function1    	{ background-image: url(images/t/waon_function.png);				color: #FFF; }		
+.bg_chord 	   	 	{ background-image: url(images/t/t400_80_chord.png);				color: #FFF; }
+/* -------------------------------------------------- */
+/*                 リンクの色設定                     */
+/* -------------------------------------------------- */
+.bg_GKTN1	 a:link				{ color: #FFF; text-decoration: none; }
+.bg_GKTN1    a:visited  		{ color: #FFF; text-decoration: none; }
+.bg_GKTN1 	 a:hover    		{ color: #6D6; text-decoration: underline; }
+
+.bg_GKTN2	 a:link				{ color: #373; text-decoration: none; }
+.bg_GKTN2	 a:visited			{ color: #373; text-decoration: none; }
+.bg_GKTN2	 a:hover			{ color: #4B4; text-decoration: underline; }
+
+.bg_GKTN3	a:link				{ color: #373; text-decoration: none; }
+.bg_GKTN3	a:visited			{ color: #373; text-decoration: none; }
+.bg_GKTN3	a:hover				{ color: #4B4; text-decoration: underline; }
+
+.bg_HSTR1	a:link				{ color: #FFF; text-decoration: none; }
+.bg_HSTR1	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_HSTR1	a:hover				{ color: #FDD; text-decoration: underline; }
+
+.bg_HSTR2	a:link				{ color: #FFF; text-decoration: none; }
+.bg_HSTR2	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_HSTR2	a:hover				{ color: #881E38; text-decoration: underline; }
+
+.bg_HSTR3	a:link				{ color: #881E38; text-decoration: none; }
+.bg_HSTR3	a:visited			{ color: #881E38; text-decoration: none; }
+.bg_HSTR3	a:hover				{ color: #660c16; text-decoration: underline; }
+
+.bg_SOLF1 	a:link				{ color: #FFF; text-decoration: none; }
+.bg_SOLF1 	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_SOLF1 	a:hover				{ color: #B7E6F4; text-decoration: underline; }
+
+.bg_SOLF2	 a:link				{ color: #FFF; text-decoration: none; }
+.bg_SOLF2 	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_SOLF2 	a:hover				{ color: #33B; text-decoration: underline; }
+
+.bg_SOLF3	a:link				{ color: #11F; text-decoration: none; }
+.bg_SOLF3 	a:visited			{ color: #11F; text-decoration: none; }
+.bg_SOLF3 	a:hover				{ color: #33B; text-decoration: underline; }
+
+.bg_GRAY1 	a:link				{ color: #FFF; text-decoration: none; }
+.bg_GRAY1	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_GRAY1	a:hover				{ color: #EEE; text-decoration: underline; }
+
+.bg_GRAY2	a:link				{ color: #333; text-decoration: none; }
+.bg_GRAY2	a:visited			{ color: #333; text-decoration: none; }
+.bg_GRAY2	a:hover				{ color: #111; text-decoration: underline; }
+
+.bg_GRAY3	a:link				{ color: #555; text-decoration: none; }
+.bg_GRAY3	a:visited			{ color: #555; text-decoration: none; }
+.bg_GRAY3	a:hover				{ color: #333; text-decoration: underline; }
+
+
+.bg_VTSZ1	a:link				{ color: #FFF; text-decoration: none; }
+.bg_VTSZ1	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_VTSZ1	a:hover				{ color: #F1CCAA; text-decoration: underline; }
+
+.bg_VTSZ2	a:link				{ color: #FFF; text-decoration: none; }
+.bg_VTSZ2	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_VTSZ2	a:hover				{ color: #F1CCAA; text-decoration: underline; }
+
+.bg_VTSZ3	a:link				{ color: #a11; text-decoration: none; }
+.bg_VTSZ3	a:visited			{ color: #a11; text-decoration: none; }
+.bg_VTSZ3	a:hover				{ color: #900; text-decoration: underline; }
+
+
+.bg_JZRP1 	a:link				{ color: #FFF; text-decoration: none; }
+.bg_JZRP1	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_JZRP1 	a:hover				{ color: #FFD2E9; text-decoration: underline; }
+
+.bg_JZRP2 	a:link				{ color: #FFF; text-decoration: none; }
+.bg_JZRP2	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_JZRP2 	a:hover				{ color: #FFD2E9; text-decoration: underline; }
+ 
+.bg_JZRP3 	a:link				{ color: #FFF; text-decoration: none; }
+.bg_JZRP3	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_JZRP3 	a:hover				{ color: #D33595; text-decoration: underline; }
+
+.bg_leaf	a:link				{ color: #FFF; text-decoration: none; }
+.bg_leaf	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_leaf	a:hover				{ color: #6D6; text-decoration: underline; }
+
+.bg_leaf2	a:link				{ color: #373; text-decoration: none; }
+.bg_leaf2	a:visited			{ color: #373; text-decoration: none; }
+.bg_leaf2	a:hover				{ color: #4B4; text-decoration: underline; }
+
+.bg_leaf3	a:link				{ color: #373; text-decoration: none; }
+.bg_leaf3	a:visited			{ color: #373; text-decoration: none; }
+.bg_leaf3	a:hover				{ color: #4B4; text-decoration: underline; }
+
+.bg_GKTN_repeat a:link			{ color: #373; text-decoration: none; }
+.bg_GKTN_repeat a:visited		{ color: #373; text-decoration: none; }
+.bg_GKTN_repeat a:hover			{ color: #5A5; text-decoration: underline; }
+
+
+.bg_cf1		a:link				{ color: #FFF; text-decoration: none; }
+.bg_cf1		a:visited			{ color: #FFF; text-decoration: none; }
+.bg_cf1 	a:hover				{ color: #6D6; text-decoration: underline; }
+
+.bg_Rhythmn1  	 a:link 		{ color: #11F; text-decoration: none; }
+.bg_Rhythmn1  	 a:visited		{ color: #11F; text-decoration: none; }
+.bg_Rhythmn1  	 a:hover		{ color: #33B; text-decoration: underline; }
+
+.bg_blue3_dia1  a:link			{ color: #11F; text-decoration: none; }
+.bg_blue3_dia1  a:visited		{ color: #11F; text-decoration: none; }
+.bg_blue3_dia1  a:hover			{ color: #33B; text-decoration: underline; }
+
+.bg_blue3_fuyomi  a:link		{ color: #11F; text-decoration: none; }
+.bg_blue3_fuyomi  a:visited		{ color: #11F; text-decoration: none; }
+.bg_blue3_fuyomi  a:hover		{ color: #33B; text-decoration: underline; }
+
+.bg_blue3_RPG  a:link			{ color: #11F; text-decoration: none; }
+.bg_blue3_RPG  a:visited		{ color: #11F; text-decoration: none; }
+.bg_blue3_RPG  a:hover			{ color: #33B; text-decoration: underline; }
+
+.bg_blue3_neiloan  a:link		{ color: #11F; text-decoration: none; }
+.bg_blue3_neiloan  a:visited	{ color: #11F; text-decoration: none; }
+.bg_blue3_neiloan  a:hover		{ color: #33B; text-decoration: underline; }
+
+.bg_blue3_waon  a:link			{ color: #11F; text-decoration: none; }
+.bg_blue3_waon  a:visited		{ color: #11F; text-decoration: none; }
+.bg_blue3_waon  a:hover			{ color: #33B; text-decoration: underline; }
+
+.bg_green3_theory  a:link		{ color: #373; text-decoration: none; }
+.bg_green3_theory  a:visited	{ color: #373; text-decoration: none; }
+.bg_green3_theory  a:hover		{ color: #4B4; text-decoration: underline; }
+
+.bg_green3_exam    a:link		{ color: #373; text-decoration: none; }
+.bg_green3_exam    a:visited	{ color: #373; text-decoration: none; }
+.bg_green3_exam    a:hover		{ color: #4B4; text-decoration: underline; }
+
+.bg_green3_wasei   a:link		{ color: #373; text-decoration: none; }
+.bg_green3_wasei   a:visited	{ color: #373; text-decoration: none; }
+.bg_green3_wasei   a:hover		{ color: #4B4; text-decoration: underline; }
+
+.bg_green3_baloon  a:link		{ color: #373; text-decoration: none; }
+.bg_green3_baloon  a:visited	{ color: #373; text-decoration: none; }
+.bg_green3_baloon  a:hover		{ color: #4B4; text-decoration: underline; }
+
+.bg_green3_kakomon a:link		{ color: #373; text-decoration: none; }
+.bg_green3_kakomon a:visited	{ color: #373; text-decoration: none; }
+.bg_green3_kakomon a:hover		{ color: #4B4; text-decoration: underline; }
+
+.bg_volt3_jazz     a:link		{ color: #FFF; text-decoration: none; }
+.bg_volt3_jazz     a:visited	{ color: #FFF; text-decoration: none; }
+.bg_volt3_jazz     a:hover		{ color: #FFD2E9; text-decoration: underline; }
+
+.bg_volt3_keyboard a:link		{ color: #FFF; text-decoration: none; }
+.bg_volt3_keyboard a:visited	{ color: #FFF; text-decoration: none; }
+.bg_volt3_keyboard a:hover		{ color: #FFD2E9; text-decoration: underline; }
+
+.bg_volt3_chord    a:link		{ color: #FFF; text-decoration: none; }
+.bg_volt3_chord    a:visited	{ color: #FFF; text-decoration: none; }
+.bg_volt3_chord    a:hover		{ color: #FFD2E9; text-decoration: underline; }
+
+.bg_triad1	a:link				{ color: #FFF; text-decoration: none; }
+.bg_triad1	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_triad1	a:hover				{ color: #000; text-decoration: none; }
+
+.bg_triad2	a:link				{ color: #FFF; text-decoration: none; }
+.bg_triad2	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_triad2	a:hover				{ color: #000; text-decoration: none; }
+
+.bg_triad3	a:link				{ color: #FFF; text-decoration: none; }
+.bg_triad3	a:visited			{ color: #FFF; text-decoration: none; }
+.bg_triad3	a:hover				{ color: #000; text-decoration: none; }
+
+
+.bg_seventh1	a:link			{ color: #FFF; text-decoration: none; }
+.bg_seventh1	a:visited		{ color: #FFF; text-decoration: none; }
+.bg_seventh1	a:hover			{ color: #000; text-decoration: none; }
+
+.bg_seventh2	a:link			{ color: #FFF; text-decoration: none; }
+.bg_seventh2	a:visited		{ color: #FFF; text-decoration: none; }
+.bg_seventh2	a:hover			{ color: #000; text-decoration: none; }
+
+.bg_seventh3	a:link			{ color: #FFF; text-decoration: none; }
+.bg_seventh3	a:visited		{ color: #FFF; text-decoration: none; }
+.bg_seventh3	a:hover			{ color: #000; text-decoration: none; }
+
+
+.bg_function	a:link			{ color: #FFF; text-decoration: none; }
+.bg_function	a:visited		{ color: #FFF; text-decoration: none; }
+.bg_function	a:hover			{ color: #000; text-decoration: none; }
+
+.bg_function1	a:link			{ color: #FFF; text-decoration: none; }
+.bg_function1	a:visited		{ color: #FFF; text-decoration: none; }
+.bg_function1	a:hover			{ color: #000; text-decoration: none; }
+
+.bg_soudan		a:link			{ color: #000; text-decoration: none; }
+.bg_soudan		a:visited		{ color: #000; text-decoration: none; }
+.bg_soudan		:hover			{ color: #444; text-decoration: none; }	  	    
+
+/* ---------------- 楽典 ページボタン2014～2015 ------------------- */
+ul.btnPageH{
+	width:230px;
+	height:44px;
+	margin:0 auto 20px;
+}
+ul.btnPageF{
+	width:230px; 
+	margin:20px auto;
+}
+ul.btnPageH3{
+	width:145px;
+	height:44px;
+	margin:0 auto 20px;
+}
+ul.btnPageF3{
+	width:145px; 
+	margin:20px auto;
+}
+ul.btnPageH4{
+	width:186px;
+	height:44px;
+	margin:0 auto 20px;
+}
+ul.btnPageF4{
+	width:186px; 
+	margin:20px auto;
+}
+li.btnPage1 {
+	border:#555 1px solid;
+	width:40px;
+	height:40px;
+	margin:0 2px;
+	display:block;
+	float:left;
+}
+li.btnPage1 a{
+	display:block;
+	font-size:20px;
+	padding:10px 0;
+	text-align:center;
+	text-decoration:none;
+	color:#555;
+}
+li.now{background:#DDD;}
+
+.menu {
+	width:160px;
+	margin:0 auto;
+}
+.nextprev{
+	display:block;
+	border:#555 1px solid;
+	color:#222;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	padding:10px 0;
+	width:68px;
+	margin:5px;
+	float:left;
+}
